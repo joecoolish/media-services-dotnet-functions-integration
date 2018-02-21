@@ -10,7 +10,7 @@
     },
     "functionKey": {
       "type": "string",
-      "defaultValue": "j0txf1f8msjytzvpe40nxbpxdcxtqcgxy0nt",
+      "defaultValue": "KkaOlBaWp7MX95l80hhF0gnXe01mZ1nHtsoH1mcaOUA5VH8AYQaBvA==",
       "metadata": {
         "description": "Function App Key to use for authorization of Webhook. You should replace this with the key you want to use for your Function application authorization"
       }
@@ -31,7 +31,7 @@
     },
     "sourceCodeRepositoryURL": {
       "type": "string",
-      "defaultValue": "ENTER PATH to YOUR FORK of https://github.com/Azure-Samples/media-services-dotnet-functions-integration",
+      "defaultValue": "https://github.com/joecoolish/media-services-dotnet-functions-integration/",
       "metadata": {
         "description": "Source code repository URL. Is is REQUIRED that you first fork the samples repository and point this to your fork. If you are using your own fork, you may see an error in deployment related to GitHub auth. We require this for your own good, as we may update and break your application or testing as we deploy new updates to the public samples repository."
       }
@@ -45,42 +45,42 @@
     },
     "mediaServicesAccountAzureActiveDirectoryTenantDomain": {
       "type": "string",
-      "defaultValue": "ENTER YOUR TENANT DOMAIN, Example: microsoft.onmicrosoft.com",
+      "defaultValue": "microsoft.onmicrosoft.com",
       "metadata": {
         "description": "Azure Active Directory tenant domain of your media services account."
       }
     },
     "mediaServicesAccountRestApiEndpoint": {
       "type": "string",
-      "defaultValue": "Example: https://accountname.restv2.region.media.azure.net/api/",
+      "defaultValue": "https://hdhomerun.restv2.eastus.media.azure.net/api/",
       "metadata": {
         "description": "REST API endpoint of your media services account."
       }
     },
     "mediaServicesAccountServicePrincipalClientId": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "e9eefaa5-e59f-40ae-84ea-14aa1c85ed96",
       "metadata": {
         "description": "Service Principal Client ID to access your media services account. See https://docs.microsoft.com/en-us/azure/media-services/media-services-portal-get-started-with-aad#service-principal-authentication"
       }
     },
     "mediaServicesAccountServicePrincipalClientSecret": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "T1K1Y3FsSj9VKogoI5e8LoI7/iO7ekf4lNhU9ZjTRYg=",
       "metadata": {
         "description": "Service Principal Client Secret to access your media services account. See https://docs.microsoft.com/en-us/azure/media-services/media-services-portal-get-started-with-aad#service-principal-authentication"
       }
     },
     "mediaServicesStorageAccountName": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "testappsdiag430",
       "metadata": {
         "description": "Storage Accouunt Name of the Media Services account"
       }
     },
     "mediaServicesStorageAccountKey": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "mH1AlVET1OT3dmOe5Q2+4oT5qJdZ1NBXEcSNIMzs+eTxSAmX00FMIorgLPvsn2uJTdFkXAc/gDwPRfREJOog+Q==",
       "metadata": {
         "description": "Storage Accouunt Key of the Media Services account"
       }
